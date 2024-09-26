@@ -18,6 +18,8 @@ const Login = () => {
 
       let data = apiRes?.data;
 
+      console.log( data );
+
       if (data?.result == true) {
         navigate("/")
       } 
